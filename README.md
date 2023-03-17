@@ -10,6 +10,6 @@ Set3r should reject because xi != yi for every 1 <= i <= |y| (|x| > |y|)
 
 Set4a should accept with |x| == |y| (first 5: xi != yi for a singular i // second 5: xi == yi for a singular i)  
 Set5a should accept with |x| < |y| (first 5: xi != yi for a singular i // second 5: xi == yi for a singular i)  
-Set6a should accept with |x| < |y| and xi == xi for every 1 <= i <= |x|  
+Set6a should accept with |x| < |y| and xi == yi for every 1 <= i <= |x|  
 Set7a should accept with |x| > |y| (first 5: xi != yi for a singular i // second 5: xi == yi for a singular i)  
-Set8a should accept with |x| > |y| and xi == xi for every 1 <= i <= |y|  
+Set8a should accept with |x| > |y| and xi == yi for every 1 <= i <= |y|  
